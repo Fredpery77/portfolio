@@ -19,8 +19,8 @@ nav .profile {
     align-items: center;
 }
 nav .profile img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 nav .profile h1 {
@@ -55,28 +55,12 @@ nav ul li:hover {
     margin: 0;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 6vw;
+    font-size: 5.5vw;
 }
 .page-content header p {
     line-height: 30px;
     color: #818181;
 }
-.page-content header button {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    padding: 0;
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-}
-.page-content header button:hover {
-    color: #ccc;
-    border-bottom-color: #000;
-}
-
 .page-content .presentation-image {
     margin-top: 5%;
 }
@@ -84,7 +68,6 @@ nav ul li:hover {
     max-width: 100%;
     height: auto;
 }
-
 .page-content .projects-section {
     margin-top: 6%;
 }
@@ -110,6 +93,19 @@ nav ul li:hover {
 .page-content .projects-section .projects .project .ressources {
     font-size: 13px;
     color: rgb(145, 145, 145);
+}
+.page-content .projects-section .projects .project button {
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.page-content .projects-section .projects .project button:hover {
+    color:cadetblue;
 }
  footer {
     margin-top: 5%;
